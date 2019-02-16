@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/gin-gonic/gin"
-	"github.com/russross/blackfriday"
 	_ "github.com/heroku/x/hmetrics/onload"
+	"github.com/russross/blackfriday"
 )
 
 func main() {
