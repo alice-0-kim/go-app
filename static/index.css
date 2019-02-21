@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFAFA;
+    background-image: url("/static/winter.jpg");
+}
+body {
+    margin: 0px;
+}
+nav {
+    background-color: #FFFAFA;
+    text-transform: uppercase;
+    border-top: 1px black solid;
+}
+nav h2 {
+    font-family: 'Coiny', cursive;
+    padding: 3px 20px;
+    display: inline;
+}
+nav div {
+    float: right;
+    margin: 7px;
+}
+nav div p {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+.box {
+    width: 300px;
+    background-color: #FFFAFA;
+    padding: 30px 20px;
+    margin: 50px auto;
+}
+[type="submit"] {
+    margin: 50px 0 0;
+    background-color: #FFFAFA;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 5px;
+    min-width: 300px;
+    border-radius: 3px;
+}
